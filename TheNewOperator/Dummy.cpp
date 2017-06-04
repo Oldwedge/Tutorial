@@ -2,5 +2,5 @@
 
 void Dummy::Avoid()
 {
-	//don't go here
+	std::cout << "This is a void calling" << std::endl;
 }

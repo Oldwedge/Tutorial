@@ -6,6 +6,9 @@ int main()
 	//creating a new instance of Dummy, and pointing to it using PNewDummy
 	Dummy* PNewDummy = new Dummy();
 
+	//the -> syntax is used to call instance methods via pointers
+	PNewDummy->Avoid();
+
 	//Whenever I create objects with the "new" operator I must remember 
 	//to delete it when I don't need it any more.
 	//Failing to delete references will = creating memory leaks
